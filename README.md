@@ -10,7 +10,7 @@ binaries are published here so no GitHub auth is needed to install.
 curl -fsSL https://neuralqxlab.github.io/ws-releases/install.sh | sh
 ```
 
-Then claim your box with the link and passphrase you were sent:
+Apple Silicon Macs and x86_64 Linux. Then claim your box with the link and passphrase you were sent:
 
 ```sh
 ws init <link>

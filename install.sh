@@ -2,7 +2,7 @@
 # Installs `ws` from the latest GitHub Release of NeuralQXLab/ws-releases.
 # No sudo, no auth, no dependencies beyond curl. Safe to re-run to reinstall.
 #
-#   curl -fsSL https://neuralqxlab.github.io/ws-releases/install.sh | sh
+#   curl -fsSL https://raw.githubusercontent.com/NeuralQXLab/ws-releases/main/install.sh | sh
 set -eu
 
 REPO="NeuralQXLab/ws-releases"
@@ -15,7 +15,7 @@ case "$os" in
   Darwin)
     case "$arch" in
       arm64)  target="aarch64-apple-darwin" ;;
-      x86_64) target="x86_64-apple-darwin" ;;
+      x86_64) echo "install.sh: Intel Macs are not supported (Apple Silicon only)." >&2; exit 1 ;;
       *) echo "install.sh: unsupported mac architecture: $arch" >&2; exit 1 ;;
     esac
     ;;
