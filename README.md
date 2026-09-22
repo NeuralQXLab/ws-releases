@@ -7,7 +7,7 @@ binaries are published here so no GitHub auth is needed to install.
 ## Install
 
 ```sh
-curl -fsSL https://raw.githubusercontent.com/NeuralQXLab/ws-releases/main/install.sh | sh
+curl -fsSL https://neuralqxlab.github.io/ws-releases/install.sh | sh
 ```
 
 Then claim your box with the link and passphrase you were sent:

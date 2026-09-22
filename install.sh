@@ -2,7 +2,7 @@
 # Installs `ws` from the latest GitHub Release of NeuralQXLab/ws-releases.
 # No sudo, no auth, no dependencies beyond curl. Safe to re-run to reinstall.
 #
-#   curl -fsSL https://raw.githubusercontent.com/NeuralQXLab/ws-releases/main/install.sh | sh
+#   curl -fsSL https://neuralqxlab.github.io/ws-releases/install.sh | sh
 set -eu
 
 REPO="NeuralQXLab/ws-releases"
